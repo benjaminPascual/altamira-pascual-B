@@ -4,10 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+  <!-- FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <!-- CSS nativo -->
+  <!-- CSS nativo -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <title>Altamira</title>
   </head>
@@ -16,12 +19,11 @@
 <!-- NAV + BUSCADOR -->
       <div class="row">
         <div class="col-lg-12 col-12">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 mb-2 bg-white text-dark">
             <a class="navbar-brand" href="index.html"><img src="assets/img/altamira_logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -35,17 +37,17 @@
                     PRODUCTOS
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Catena Zapata</a>
+                    <a class="dropdown-item" href="#">Las Perdices</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Ver todas las bodegas</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">CONTACTO</a>
+                  <a class="nav-link" href="#">CONTACTO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Q&A</a>
+                  <a class="nav-link" href="#">Q&A</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -57,28 +59,52 @@
         </div>
       </div>
 <!-- encabezado -->
-      <div class="row">
-        <div class="col-lg-3 col-3">
-          <img src="assets/img/gotas.png" alt="">
+      <div class="row" id="main-index">
+        <div class="col-lg-2 col-2 rounded mx-auto d-block" id="gotas">
+          <img class="rounded mx-auto d-block" src="assets/img/gotas.png" alt="">
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8 col-8">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt accusamus quae rem, accusantium obcaecati perspiciatis debitis, quaerat at. Placeat perspiciatis, labore sed enim sint in. Harum iusto nemo fuga eos!
+      <div class="row" id="main-index">
+        <div class="col-lg-8 col-8 rounded mx-auto d-block" >
+          <p class="text-center" id="txt-index">
+            Nuestro logo esta inspirado en el equilibrio y la armonia entre EL VINO y EL CAFE.
+            Ahi, en ese simple momento donde las dos gotas se unen, 
+            donde surge una charla cargada de emocion,
+            donde suena una buena cancion, donde estalla una risa o se pianta un lagrimon.
+            Ahi, o acá, en Altamira..
+            donde pareciera que estamos de viaje, 
+            parados en un mirador contemplando lo magico a nuestro alrededor.
           </p>
         </div>
       </div>
 <!-- footer -->
       <div class="row">
-        <div class="col-lg-6 col-10">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12915.518831347346!2d-62.7312242!3d-35.9743663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35971ff3baf425fb!2sAltamira!5e0!3m2!1ses-419!2sar!4v1646246298614!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="col-lg-7 col-10">
+          <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12915.518831347346!2d-62.7312242!3d-35.9743663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35971ff3baf425fb!2sAltamira!5e0!3m2!1ses-419!2sar!4v1646246298614!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div class="col-lg-1 col-10">
-          
+        <div class="col-lg-2 col-10">
+          <a href="https://m.facebook.com/" target="_blank">
+            <img class="rrss__fb" src="https://icongr.am/entypo/facebook.svg?size=30&color=000000" alt="logo facebook">
+          </a>
+          <a href="https://www.instagram.com/altamiraok/" target="_blank">
+            <img class="rrss__ig" src="https://icongr.am/entypo/instagram.svg?size=30&color=000000" alt="logo instagram">
+          </a>
         </div>
         <div class="col-lg-3 col-10">
-          
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Q&A</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
